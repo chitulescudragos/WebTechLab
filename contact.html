@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scrie-mi pe FragMeUp pentru recomandări de parfumuri, schimburi de păreri sau colaborări pe TikTok și Instagram.">
+    <meta name="author" content="Dragoș-Mihai Chițulescu">
+    <title>Contact &amp; Comunitate | FragMeUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">FragMe<span>Up</span></a>
+            <nav class="main-nav" aria-label="Meniu principal">
+                <ul class="nav-list">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li class="dropdown">
+                        <a href="catalog.html" class="dropbtn">Colecție &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="catalog.html#nisa">Nișă &amp; Haute Perfumery</a></li>
+                            <li><a href="catalog.html#gourmand">Gourmand &amp; Orientale</a></li>
+                            <li><a href="catalog.html#designer">Designer &amp; Signature</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ghid-olfactiv.html">Ghid Olfactiv</a></li>
+                    <li><a href="contact.html" class="active">Colaborări &amp; PR</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section-container contact-layout">
+        
+        <section class="pr-info-panel">
+            <h1>Hai să vorbim despre parfumuri!</h1>
+            <p>
+                Am pornit pagina <strong>FragMeUp</strong> pe TikTok și Instagram din pură pasiune pentru sticle, unboxings și discuții cu alți pasionați. Fie că vrei o părere înainte de un blind-buy, fie că vrei să colaborăm, îmi poți lăsa un mesaj aici.
+            </p>
+
+            <div class="pr-highlights">
+                <article class="pr-card">
+                    <h3>Recomandări &amp; Discuții</h3>
+                    <p>Nu știi ce să alegi între două parfumuri sau cauți ceva cu persistență mare într-un anumit buget? Scrie-mi ce note îți plac și îți spun sincer ce aș alege eu din tot ce am testat.</p>
+                </article>
+
+                <article class="pr-card">
+                    <h3>Colaborări &amp; PR (TikTok / Reels)</h3>
+                    <p>Dacă reprezinți un brand sau o parfumerie și vrei să testez o lansare nouă într-un clip de unboxing sau prime impresii pe FragMeUp, îmi poți trimite detaliile în formularul alăturat.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-form-panel">
+            <h2>Lasă-mi un mesaj</h2>
+            
+            <form action="#" method="post" class="frag-form">
+                <div class="form-group">
+                    <label for="nume">Numele tău (sau Brand) *</label>
+                    <input type="text" id="nume" name="nume" placeholder="Ex: Alex" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresă de Email *</label>
+                    <input type="email" id="email" name="email" placeholder="alex@exemplu.ro" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tip-mesaj">Despre ce vorbim?</label>
+                    <select id="tip-mesaj" name="tip-mesaj">
+                        <option value="recomandare">Vreau o recomandare de parfum</option>
+                        <option value="recenzie">Sugestie de parfum pentru următorul TikTok</option>
+                        <option value="pr">Propunere de colaborare / PR</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="intensitate">Cât de puternic vrei să fie parfumul? (1 = Discret, 10 = Puternic)</label>
+                    <input type="range" id="intensitate" name="intensitate" min="1" max="10" value="8">
+                </div>
+
+                <fieldset class="form-fieldset">
+                    <legend>Pentru ce sezon îl cauți?</legend>
+                    <label class="radio-label">
+                        <input type="radio" name="sezon" value="toamna-iarna" checked> Toamnă / Iarnă
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="sezon" value="primavara-vara"> Primăvară / Vară
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="mesaj">Mesajul tău *</label>
+                    <textarea id="mesaj" name="mesaj" rows="4" placeholder="Spune-mi ce parfumuri îți plac deja sau ce ai vrea să testez pe pagină..." required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="acord" required>
+                        Confirm că datele introduse sunt corecte.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary btn-full">Trimite-mi Mesajul</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>FragMe<span>Up</span></h3>
+                <p>Jurnalul meu olfactiv. Postez constant recenzii video, unboxings și prime impresii pe TikTok și Instagram.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explorează</h4>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="catalog.html">Colecția Mea</a></li>
+                    <li><a href="ghid-olfactiv.html">Ghid Olfactiv</a></li>
+                    <li><a href="contact.html">Contact &amp; PR</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Informații Proiect</h4>
+                <p>&copy; 2026 FragMeUp. Realizat de Dragoș-Mihai Chițulescu.</p>
+                <p>
+                    <a href="https://validator.w3.org/check?uri=referer">Valid HTML5</a>
+                </p>
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="https://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="Valid CSS!" />
+                    </a>
+                </p>
+                <a href="#top" class="back-to-top">&uarr; Înapoi sus</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
